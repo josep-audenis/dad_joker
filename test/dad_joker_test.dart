@@ -1,0 +1,8 @@
+import 'package:dad_joker/dad_joker.dart';
+import 'package:test/test.dart';
+
+void main() {
+  test('calculate', () {
+    expect(calculate(), 42);
+  });
+}
